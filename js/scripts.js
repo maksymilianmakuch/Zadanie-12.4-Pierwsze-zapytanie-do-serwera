@@ -12,4 +12,5 @@ function getJoke() {
 	paragraph.innerHTML = response.value.joke;
 		});
 		xhr.send();
-}
+};
+getJoke();
